@@ -32,6 +32,4 @@ node default {
   if $trusted['extensions']['pp_role'] != undef {
     include "role::${trusted['extensions']['pp_role']}"
   }
-  
-  include 'bootcamp'
 }

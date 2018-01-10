@@ -12,6 +12,3 @@ mod "puppet/nginx"
 mod 'pe_metric_curl_cron_jobs',
   :git    => 'https://github.com/npwalker/pe_metric_curl_cron_jobs',
   :branch => 'master'
-
-mod 'puppet-bootcamp',
-  :git    => 'ssh://git@github.com/ncalteen/puppet-bootcamp.git'

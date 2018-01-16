@@ -9,6 +9,8 @@ mod "puppet/staging"
 mod 'puppet-logrotate'
 mod "puppet/nginx"
 
+# GitHub Modules
+
 mod 'pe_metric_curl_cron_jobs',
   :git    => 'https://github.com/npwalker/pe_metric_curl_cron_jobs',
   :branch => 'master'

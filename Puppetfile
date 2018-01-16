@@ -9,6 +9,10 @@ mod "puppet/staging"
 mod 'puppet-logrotate'
 mod "puppet/nginx"
 
+mod "puppetlabs/inifile"
+mod "puppetlabs/puppetserver_gem"
+mod "puppet/hiera"
+
 # GitHub Modules
 
 mod 'pe_metric_curl_cron_jobs',

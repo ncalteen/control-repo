@@ -33,5 +33,5 @@ node default {
     include "role::${trusted['extensions']['pp_role']}"
   }
   
-  include 'bootcamp'
+  #lookup('classes', Array[String], 'unique').include
 }

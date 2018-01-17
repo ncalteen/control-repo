@@ -33,5 +33,5 @@ node default {
     include "role::${trusted['extensions']['pp_role']}"
   }
   
-  #lookup('classes', Array[String], 'unique').include
+  lookup('classes', Array[String], 'unique').include
 }

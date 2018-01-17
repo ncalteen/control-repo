@@ -13,4 +13,7 @@ class profile::hiera {
     keysdir              =>  '/etc/puppetlabs/code-staging/keys',
     provider             =>  puppetserver_gem,
   }
+
+
+  package { 'cowsay': }
 }

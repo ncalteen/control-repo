@@ -13,11 +13,6 @@ mod 'puppet-logrotate'
 mod "puppetlabs/puppetserver_gem"
 # mod "puppet/hiera"
 
-forge 'forge.puppetlabs.com'
-
-# Directory where all modules get installed to
-moduledir 'thirdparty'
-
 # Forge Modules
 mod 'puppetlabs/ntp', '6.0.0'
 mod 'puppetlabs/stdlib', '4.24.0'
@@ -45,8 +40,6 @@ mod 'puppet/hiera', '3.3.1'
 mod 'puppet/r10k', '6.2.0'
 
 mod 'puppet/nginx', '0.5.0'
-
-
 
 # GitHub Modules
 
